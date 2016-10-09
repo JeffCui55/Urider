@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1FE39AE11DAAC6C2006A6EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE39AE01DAAC6C2006A6EC1 /* AppDelegate.swift */; };
-		1FE39AE31DAAC6C2006A6EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE39AE21DAAC6C2006A6EC1 /* ViewController.swift */; };
 		1FE39AE61DAAC6C2006A6EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE39AE41DAAC6C2006A6EC1 /* Main.storyboard */; };
 		1FE39AE91DAAC6C2006A6EC1 /* Urider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FE39AE71DAAC6C2006A6EC1 /* Urider.xcdatamodeld */; };
 		1FE39AEB1DAAC6C2006A6EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE39AEA1DAAC6C2006A6EC1 /* Assets.xcassets */; };
 		1FE39AEE1DAAC6C2006A6EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE39AEC1DAAC6C2006A6EC1 /* LaunchScreen.storyboard */; };
+		1FE39AF81DAAD279006A6EC1 /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE39AF71DAAD279006A6EC1 /* LoginInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FE39ADD1DAAC6C2006A6EC1 /* Urider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Urider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE39AE01DAAC6C2006A6EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FE39AE21DAAC6C2006A6EC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FE39AE51DAAC6C2006A6EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FE39AE81DAAC6C2006A6EC1 /* Urider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Urider.xcdatamodel; sourceTree = "<group>"; };
 		1FE39AEA1DAAC6C2006A6EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE39AED1DAAC6C2006A6EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE39AEF1DAAC6C2006A6EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE39AF71DAAD279006A6EC1 /* LoginInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE39AE01DAAC6C2006A6EC1 /* AppDelegate.swift */,
-				1FE39AE21DAAC6C2006A6EC1 /* ViewController.swift */,
+				1FE39AF71DAAD279006A6EC1 /* LoginInViewController.swift */,
 				1FE39AE41DAAC6C2006A6EC1 /* Main.storyboard */,
 				1FE39AEA1DAAC6C2006A6EC1 /* Assets.xcassets */,
 				1FE39AEC1DAAC6C2006A6EC1 /* LaunchScreen.storyboard */,
@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					1FE39ADC1DAAC6C2006A6EC1 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YT2B2C86Y7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE39AF81DAAD279006A6EC1 /* LoginInViewController.swift in Sources */,
 				1FE39AE91DAAC6C2006A6EC1 /* Urider.xcdatamodeld in Sources */,
-				1FE39AE31DAAC6C2006A6EC1 /* ViewController.swift in Sources */,
 				1FE39AE11DAAC6C2006A6EC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YT2B2C86Y7;
 				INFOPLIST_FILE = Urider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Cuiver.Urider;
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YT2B2C86Y7;
 				INFOPLIST_FILE = Urider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Cuiver.Urider;
@@ -301,6 +304,7 @@
 				1FE39AF41DAAC6C2006A6EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
