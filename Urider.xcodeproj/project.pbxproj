@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FBCEDA21DB84ED800FEE3EF /* MainListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCEDA11DB84ED800FEE3EF /* MainListTableViewController.swift */; };
+		1FBCEDA41DB84F8500FEE3EF /* MainListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCEDA31DB84F8500FEE3EF /* MainListTableViewCell.swift */; };
+		1FBCEDA61DB8536E00FEE3EF /* RideObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCEDA51DB8536E00FEE3EF /* RideObject.swift */; };
+		1FDD72161DD2484800F3FF55 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD72151DD2484800F3FF55 /* MainScreenViewController.swift */; };
 		1FE39AE11DAAC6C2006A6EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE39AE01DAAC6C2006A6EC1 /* AppDelegate.swift */; };
 		1FE39AE61DAAC6C2006A6EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE39AE41DAAC6C2006A6EC1 /* Main.storyboard */; };
 		1FE39AE91DAAC6C2006A6EC1 /* Urider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FE39AE71DAAC6C2006A6EC1 /* Urider.xcdatamodeld */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FBCEDA11DB84ED800FEE3EF /* MainListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListTableViewController.swift; sourceTree = "<group>"; };
+		1FBCEDA31DB84F8500FEE3EF /* MainListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListTableViewCell.swift; sourceTree = "<group>"; };
+		1FBCEDA51DB8536E00FEE3EF /* RideObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideObject.swift; sourceTree = "<group>"; };
+		1FDD72151DD2484800F3FF55 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		1FE39ADD1DAAC6C2006A6EC1 /* Urider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Urider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE39AE01DAAC6C2006A6EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE39AE51DAAC6C2006A6EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				1FE39AEC1DAAC6C2006A6EC1 /* LaunchScreen.storyboard */,
 				1FE39AEF1DAAC6C2006A6EC1 /* Info.plist */,
 				1FE39AE71DAAC6C2006A6EC1 /* Urider.xcdatamodeld */,
+				1FBCEDA11DB84ED800FEE3EF /* MainListTableViewController.swift */,
+				1FBCEDA31DB84F8500FEE3EF /* MainListTableViewCell.swift */,
+				1FBCEDA51DB8536E00FEE3EF /* RideObject.swift */,
+				1FDD72151DD2484800F3FF55 /* MainScreenViewController.swift */,
 			);
 			path = Urider;
 			sourceTree = "<group>";
@@ -140,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBCEDA21DB84ED800FEE3EF /* MainListTableViewController.swift in Sources */,
 				1FE39AF81DAAD279006A6EC1 /* LoginInViewController.swift in Sources */,
+				1FDD72161DD2484800F3FF55 /* MainScreenViewController.swift in Sources */,
 				1FE39AE91DAAC6C2006A6EC1 /* Urider.xcdatamodeld in Sources */,
 				1FE39AE11DAAC6C2006A6EC1 /* AppDelegate.swift in Sources */,
+				1FBCEDA61DB8536E00FEE3EF /* RideObject.swift in Sources */,
+				1FBCEDA41DB84F8500FEE3EF /* MainListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
